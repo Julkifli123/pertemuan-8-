@@ -1,0 +1,19 @@
+#membuat fungsi
+def fibonachi (n):
+#menentukan kondisi jika n kurang dari    
+    if n<1 :
+    # maka cetak
+        print("tidak ada nilai fibonachi")
+    #jika n sama dengan 1 atau 2
+    elif n==1 or n==2 :
+        #maka panggil 
+        return 1
+    #jika kondisi diatas tidak terpenuhi
+    else :
+        #maka panggil 
+        return fibonachi(n-1)+ fibonachi (n-2)
+    #menginput data integer
+a=int(input("masukkan nilai: "))
+fibho = fibonachi(a)
+#cetak hasil
+print("nilai:",a,"adalah :",fibho,)
