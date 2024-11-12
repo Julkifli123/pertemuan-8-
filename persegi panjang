@@ -1,0 +1,15 @@
+#fungsi mencari luas persegi panjang
+def luaspersegipanjang (panjang,lebar):
+    return panjang*lebar
+#fungsi mencari keliling 
+def keliling(panjang,lebar):
+    return 2*(panjang+lebar)
+#menginput data menggunakan integer
+a=int(input("masukkan panjang: "))
+b=int(input("masukkan lebar: "))
+#hasil
+hasil_luas = luaspersegipanjang(a,b)
+hasil_keliling = keliling(a,b)
+#cetak hasil
+print("luasnya adalah :",hasil_luas)
+print("kelilingnya adalah:",hasil_keliling)
