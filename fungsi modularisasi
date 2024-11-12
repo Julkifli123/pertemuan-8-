@@ -1,0 +1,7 @@
+#fungsi dan modularisasi
+#f(x)=5x-10
+a=int(input("masukkan nilai x: "))
+def fungsiku (x):
+    return (5*x)-a
+hasil_fx = fungsiku(a)
+print(hasil_fx)
